@@ -1,0 +1,47 @@
+* Info
+The keyboard layouts in this repo are xkb layouts for X. They are meant to be
+used with the X server.
+
+* v2 Layout
+Improvements over the v1 layouts. Switching the number keys and special
+characters is often times more of a burder than an ergonomic time saver. When
+programming it is exceedingly helpful but daily use is rather taxing. I'd rather
+have one keyboard for everything instead of one for daily use and one for
+programming. Here the keyboard is roughly similar to v1 but the number keys are
+switched back to normal. The only good thing about the original switch was not
+having to press two keys to type parentheses, something that is reflected in the
+v2 layout.
+*** us_programmer
+Differences from standard QWERTY:
+- The brackets and parenthesis are flipped. (i.e. Shift+9 and Shift+0 type `[`
+  and `]` respectively.) Parenthesis are typed much more ergonomically.
+- Caps lock and backspace are flipped. (You can keep your hands on the homerow
+  while you delete stuff. Caps lock is rarely used and is put into an
+  unergonomic position.)
+- Botton row is WIN ALT CTRL SPACE instea of CTRL WIN ALT SPACE to provide for
+  easier ergonomics. Now you can hit control with your thumb, keeping your hands
+  on the homerow for basic keybinds (i.e. C-x, C-c, C-r). WIN is the least
+  common key and is a burden when accidentally hit. It is also rarely used in
+  keybinds. Thus it is put in the least ergonomic position on the board, the
+  bottom corner.
+*** ru_programmer
+Has the exact same changes as `us_programmer` but from the standard ru_win
+keyboard layout instead of QWERTY.
+
+
+* v1 Layouts
+*** us_programmer
+Differences from standard QWERTY:
+- The number keys and the special characters are flipped. (i.e. you hit the "1"
+  key and "!" will be typed. To type "1" you hit shift+1)
+- The brackets and braces are flipped.
+- Caps lock and backspace are flipped
+- Botton row is WIN ALT CTRL SPACE instea of CTRL WIN ALT SPACE to provide for
+  easier ergonomics. Now you can hit control with your thumb, keeping your hands
+  on the homerow for basic keybinds (i.e. C-x, C-c, C-r). WIN is the least
+  common key and is a burden when accidentally hit. It is also rarely used in
+  keybinds. Thus it is put in the least ergonomic position on the board, the
+  bottom corner.
+*** ru_programmer
+Has the exact same changes as `us_programmer` but from the standard ru_win
+keyboard layout instead of QWERTY.
