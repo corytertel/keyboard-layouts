@@ -2,6 +2,11 @@
 The keyboard layouts in this repo are xkb layouts for X. They are meant to be
 used with the X server.
 
+* v3 Layout
+Removed remap of modifier keys. THumb became too cramped using model m keyboard.
+(Could be a keyboard issue.) Now only caps and control are swapped, as well as
+the brackets and parentheses.
+
 * v2 Layout
 Improvements over the v1 layouts. Switching the number keys and special
 characters is often times more of a burder than an ergonomic time saver. When
