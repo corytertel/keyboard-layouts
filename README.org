@@ -3,10 +3,15 @@ The keyboard layouts in this repo are xkb layouts for X. They are meant to be
 used with the X server.
 
 * v3 Layout
-THumb became too cramped using model m keyboard. (Could be a keyboard issue.)
-Switched to using emacs god-mode. In order to make this smoother, remapped
-backspace to escape. To compensate for no caps-lock button, caps-lock will be
-activated when both shifts are pressed.
+Thumb became too cramped using model m keyboard. (Could be a keyboard issue.)
+Switched to using emacs god-mode. I also remapped capslock to control to prevent
+thumb bending as much as it is. Xcape is used to make capslock (now control) act
+as backspace when quickly pressed. Both shifts will act as escape when quickly
+pressed. Escape and backspace are still mapped to their original key positions
+incase xcape breaks. To compensate for no caps-lock button, caps-lock will be
+activated when both shifts are pressed. Also, there will be two controls next
+to each other on the left side of the board, so the original left control button
+is remapped to hyper.
 
 * v2 Layout
 Improvements over the v1 layouts. Switching the number keys and special
