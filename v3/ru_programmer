@@ -23,21 +23,23 @@ xkb_symbols "winkeys" {
     key <AE10> { [  0,  parenright  ] };
 
     key <AB10> { [      period,       comma  ] };
-    key <BKSL> { [      slash,   backslash  ] };
 
-    key <BKSP> {        [ Caps_Lock, Caps_Lock          ]       };
-    key <CAPS> {        [ BackSpace                     ]       };
+    key <BKSL> {	[ BackSpace,    BackSpace	]	};
+    key <BKSP> {        [     slash,    backslash       ]       };
 
-    key <LALT> { [ Control_L, Control_L  ] };
-    key <RALT> { type[Group1] = "TWO_LEVEL",
-                 symbols[Group1] = [ Control_R, Control_R ] };
-    key <LWIN> { [ Alt_L, Meta_L ] };
-    key <RWIN> { [ Alt_R, Meta_R ] };
-    key <LCTL> { [ Super_L ] };
-    key <RCTL> { [ Super_R ] };
-    modifier_map Control { <RALT>, <LALT> };
-    modifier_map Mod1 { <LWIN>, <RWIN> };
-    modifier_map Mod4 { <LCTL>, <RCTL> };
+    key <LFSH> {
+      type[Group1]="TWO_LEVEL",
+      symbols[Group1] = [ Shift_L, Caps_Lock ]
+    };
+    key <RTSH> {
+      type[Group1]="TWO_LEVEL",
+      symbols[Group1] = [ Shift_R, Caps_Lock ]
+    };
+
+    replace key <CAPS> { [ Control_L ] };
+    replace key <LCTL> { [ Hyper_L ] };
+    modifier_map Control { <CAPS> };
+    modifier_map Mod3 { <LCTL> };
 };
 
 hidden partial alphanumeric_keys modifier_keys
@@ -55,7 +57,6 @@ xkb_symbols "common" {
     key <AE10> { [           0,  parenright  ] };
     key <AE11> { [       minus,  underscore  ] };
     key <AE12> { [       equal,        plus  ] };
-    key <BKSL> { [   backslash,         bar  ] };
 
     key <AB10> { [       slash,    question  ] };
     key <LSGT> { [       slash,         bar  ] };
@@ -97,6 +98,9 @@ xkb_symbols "common" {
     key <AB09> { [       Cyrillic_yu,       Cyrillic_YU  ] };
 
     include "kpdl(comma)"
+
+    key <BKSL> {	[ BackSpace,    BackSpace	]	};
+    key <BKSP> {        [ backslash,    bar             ]       };
 
     key <LFSH> {
       type[Group1]="TWO_LEVEL",

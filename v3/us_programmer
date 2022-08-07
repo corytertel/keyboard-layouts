@@ -53,7 +53,8 @@ xkb_symbols "basic" {
     key <AB09> {	[    period,	greater		]	};
     key <AB10> {	[     slash,	question	]	};
 
-    key <BKSL> {	[ backslash,    bar	]	};
+    key <BKSL> {	[ BackSpace,    BackSpace	]	};
+    key <BKSP> {        [ backslash,    bar             ]       };
 
     key <LFSH> {
       type[Group1]="TWO_LEVEL",

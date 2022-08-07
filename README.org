@@ -5,13 +5,12 @@ used with the X server.
 * v3 Layout
 Thumb became too cramped using model m keyboard. (Could be a keyboard issue.)
 Switched to using emacs god-mode. I also remapped capslock to control to prevent
-thumb bending as much as it is. Xcape is used to make capslock (now control) act
-as backspace when quickly pressed. Both shifts will act as escape when quickly
+thumb bending as much as it is. Xcape is used to make shift escape when quickly
 pressed. Escape and backspace are still mapped to their original key positions
 incase xcape breaks. To compensate for no caps-lock button, caps-lock will be
 activated when both shifts are pressed. Also, there will be two controls next
 to each other on the left side of the board, so the original left control button
-is remapped to hyper.
+is remapped to hyper. Backspace and backslash are switched for easier deletion.
 
 * v2 Layout
 Improvements over the v1 layouts. Switching the number keys and special
