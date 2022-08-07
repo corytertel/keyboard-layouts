@@ -55,10 +55,29 @@ xkb_symbols "basic" {
 
     key <BKSL> {	[ backslash,    bar	]	};
 
-    key <CAPS> { [ Control_L ] };
-    key <LCTL> { [ Caps_Lock ] };
-    modifier_map Control { <CAPS> };
-    modifier_map  Lock { <LCTL> };
+
+    key <BKSP> {        [    Escape,    Escape          ]       };
+    key <CAPS> {        [ BackSpace                     ]       };
+
+    key <LFSH> {
+      type[Group1]="TWO_LEVEL",
+      symbols[Group1] = [ Shift_L, Caps_Lock ]
+    };
+    key <RTSH> {
+      type[Group1]="TWO_LEVEL",
+      symbols[Group1] = [ Shift_R, Caps_Lock ]
+    };
+
+    key <LALT> { [ Control_L, Control_L  ] };
+    key <RALT> { type[Group1] = "TWO_LEVEL",
+                 symbols[Group1] = [ Control_R, Control_R ] };
+    key <LWIN> { [ Alt_L, Meta_L ] };
+    key <RWIN> { [ Alt_R, Meta_R ] };
+    key <LCTL> { [ Super_L ] };
+    key <RCTL> { [ Super_R ] };
+    modifier_map Control { <RALT>, <LALT> };
+    modifier_map Mod1 { <LWIN>, <RWIN> };
+    modifier_map Mod4 { <LCTL>, <RCTL> };
 };
 
 partial alphanumeric_keys
