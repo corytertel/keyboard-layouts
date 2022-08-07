@@ -101,6 +101,8 @@ xkb_symbols "common" {
     key <BKSP> {        [    Escape,    Escape          ]       };
     key <CAPS> {        [ BackSpace                     ]       };
 
+    key <SPCE> {        [ Control_L,    space           ]       };
+
     key <LFSH> {
       type[Group1]="TWO_LEVEL",
       symbols[Group1] = [ Shift_L, Caps_Lock ]
