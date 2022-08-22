@@ -326,7 +326,7 @@ xkb_symbols "dvorak-emacs" {
     key <AB01> { [   semicolon,	colon, dead_ogonek, dead_doubleacute ] };
     key <AB02> { [	    x,	X		]	};
     key <AB03> { [	    c,	C		]	};
-    key <AB04> { [	    j,	j		]	};
+    key <AB04> { [	    j,	J		]	};
     key <AB05> { [	    q,	Q		]	};
     key <AB06> { [	    k,	K		]	};
     key <AB07> { [	    m,	M		]	};
