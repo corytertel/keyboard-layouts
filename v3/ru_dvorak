@@ -2,9 +2,9 @@
 // 2022/09/01 Cory Tertel
 
 default partial alphanumeric_keys modifier_keys keypad_keys
-xkb_symbols "common" {
+xkb_symbols "basic" {
 
-    name[Group1]= "Russian";
+    name[Group1]= "Russian Dvorak";
 
     key <AE01> { [           9,      exclam  ] };
     key <AE02> { [           7,    quotedbl  ] };
