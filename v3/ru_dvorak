@@ -35,7 +35,7 @@ xkb_symbols "basic" {
     key <AD11> { [      Cyrillic_tse,      Cyrillic_TSE  ] };
     key <AD12> { [       Cyrillic_ef,       Cyrillic_EF  ] };
 
-    key <AC01> { [        Cyrillic_e,        Cyrillic_E  ] };
+    key <AC01> { [       Cyrillic_ie,       Cyrillic_IE  ] };
     key <AC02> { [        Cyrillic_i,        Cyrillic_I  ] };
     key <AC03> { [        Cyrillic_o,        Cyrillic_O  ] };
     key <AC04> { [        Cyrillic_a,        Cyrillic_A  ] };
@@ -47,7 +47,7 @@ xkb_symbols "basic" {
     key <AC10> { [       Cyrillic_el,       Cyrillic_EL  ] };
     key <AC11> { [      Cyrillic_sha,      Cyrillic_SHA  ] };
 
-    key <AB01> { [       Cyrillic_ie,       Cyrillic_IE  ] };
+    key <AB01> { [        Cyrillic_e,        Cyrillic_E  ] };
     key <AB02> { [       Cyrillic_io,       Cyrillic_IO  ] };
     key <AB03> { [      Cyrillic_che,      Cyrillic_CHE  ] };
     key <AB04> { [   Cyrillic_shorti,   Cyrillic_SHORTI  ] };
@@ -62,7 +62,7 @@ xkb_symbols "basic" {
     key <KPDL> { [ KP_Delete, KP_Separator ] }; // <delete> <separator>
 
     key <BKSL> {	[ BackSpace,    BackSpace	]	};
-    key <BKSP> {        [ backslash,    bar             ]       };
+    key <BKSP> {        [     slash,    backslash       ]       };
 
     key <LFSH> {
       type[Group1]="TWO_LEVEL",
