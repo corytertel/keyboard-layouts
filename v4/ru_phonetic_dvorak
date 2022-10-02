@@ -49,10 +49,10 @@ xkb_symbols "basic" {
 
     key <AB01> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN  ] };
     key <AB02> { [       Cyrillic_ya,       Cyrillic_YA  ] };
-    key <AB03> { [      Cyrillic_ghe,      Cyrillic_GHE  ] };
-    key <AB04> { [   Cyrillic_shorti,   Cyrillic_SHORTI  ] };
+    key <AB03> { [   Cyrillic_shorti,   Cyrillic_SHORTI  ] };
+    key <AB04> { [       Cyrillic_ka,       Cyrillic_KA  ] };
     key <AB05> { [       Cyrillic_ha,       Cyrillic_HA  ] };
-    key <AB06> { [       Cyrillic_ka,       Cyrillic_KA  ] };
+    key <AB06> { [      Cyrillic_ghe,      Cyrillic_GHE  ] };
     key <AB07> { [       Cyrillic_em,       Cyrillic_EM  ] };
     key <AB08> { [      Cyrillic_sha,      Cyrillic_SHA  ] };
     key <AB09> { [       Cyrillic_ve,       Cyrillic_VE  ] };
