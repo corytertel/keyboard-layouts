@@ -21,41 +21,41 @@ xkb_symbols "basic" {
     key <AE11> { [	slash,	question	]	};
     key <AE12> { [	equal,	plus		]	};
 
-    key <AB03> { [	    j,	J		]	};
-    key <AD05> { [	    y,	Y		]	};
-    key <AC02> { [	    o,	O		]	};
+    key <AD01> { [	    j,	J		]	};
+    key <AD02> { [	    y,	Y		]	};
+    key <AD03> { [	    o,	O		]	};
     key <AD04> { [	    u,	U		]	};
-    key <AB04> { [	    k,	K		]	};
-    key <AB08> { [	    w,	W		]	};
-    key <AC07> { [	    b,	B		]	};
+    key <AD05> { [	    k,	K		]	};
+    key <AD06> { [	    w,	W		]	};
+    key <AD07> { [	    b,	B		]	};
     key <AD08> { [	    p,	P		]	};
-    key <AC09> { [	    f,	F		]	};
-    key <AB10> { [	    z,	Z		]	};
+    key <AD09> { [	    f,	F		]	};
+    key <AD10> { [	    z,	Z		]	};
     key <AD11> { [  parenleft,	braceleft	]	};
     key <AD12> { [ parenright, braceright,  dead_tilde] };
 
-    key <AC04> { [	    h,	H		]	};
-    key <AC05> { [	    i,	I		]	};
+    key <AC01> { [	    h,	H		]	};
+    key <AC02> { [	    i,	I		]	};
     key <AC03> { [	    e,	E		]	};
-    key <AC01> { [	    a,	A 		]	};
-    key <AD03> { [      period,	greater, dead_abovedot, periodcentered	] };
-    key <AD07> { [	    d,	D		]	};
-    key <AC06> { [	    t,	T		]	};
+    key <AC04> { [	    a,	A 		]	};
+    key <AC05> { [      period,	greater, dead_abovedot, periodcentered	] };
+    key <AC06> { [	    d,	D		]	};
+    key <AC07> { [	    t,	T		]	};
     key <AC08> { [	    n,	N		]	};
-    key <AC10> { [	    s,	S		]	};
-    key <AD09> { [	    r,	R		]	};
+    key <AC09> { [	    s,	S		]	};
+    key <AC10> { [	    r,	R		]	};
     key <AC11> { [	minus,	underscore	]	};
 
-    key <AB02> { [	    q,	Q		]	};
-    key <AB01> { [   semicolon,	colon, dead_ogonek, dead_doubleacute ] };
-    key <AD01> { [  apostrophe,	quotedbl, dead_acute, dead_diaeresis	] };
-    key <AD02> { [	comma,	less,   dead_cedilla, dead_caron	] };
+    key <AB01> { [	    q,	Q		]	};
+    key <AB02> { [   semicolon,	colon, dead_ogonek, dead_doubleacute ] };
+    key <AB03> { [  apostrophe,	quotedbl, dead_acute, dead_diaeresis	] };
+    key <AB04> { [	comma,	less,   dead_cedilla, dead_caron	] };
     key <AB05> { [	    x,	X		]	};
     key <AB06> { [	    g,	G		]	};
-    key <AD10> { [	    l,	L		]	};
-    key <AB07> { [	    m,	M		]	};
-    key <AD06> { [	    c,	C		]	};
-    key <AB09> { [	    v,	V		]	};
+    key <AB07> { [	    l,	L		]	};
+    key <AB08> { [	    m,	M		]	};
+    key <AB09> { [	    c,	C		]	};
+    key <AB10> { [	    v,	V		]	};
 
     // Swap backspace and backslash
     key <BKSL> {	[ BackSpace,    BackSpace	]	};
