@@ -1,0 +1,77 @@
+// Created by Cory Tertel as a BEAKL layout that ergonomically
+// supports emacs keybindings
+
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "English (BEAKL Emacs)";
+
+    key <TLDE> { [       grave,	asciitilde, dead_grave, dead_tilde	] };
+
+    key <AE01> { [	    9,	exclam 		]	};
+    key <AE02> { [	    7,	at		]	};
+    key <AE03> { [	    1,	numbersign	]	};
+    key <AE04> { [	    3,	dollar		]	};
+    key <AE05> { [	    5,	percent		]	};
+    key <AE06> { [	    4,	asciicircum, dead_circumflex, dead_circumflex ]	};
+    key <AE07> { [	    2,	ampersand	]	};
+    key <AE08> { [	    0,	asterisk	]	};
+    key <AE09> { [	    6,	bracketleft,  dead_grave]	};
+    key <AE10> { [	    8,	bracketright	]	};
+    key <AE11> { [	slash,	question	]	};
+    key <AE12> { [	equal,	plus		]	};
+
+    key <AB03> { [	    j,	J		]	};
+    key <AD05> { [	    y,	Y		]	};
+    key <AC02> { [	    o,	O		]	};
+    key <AD04> { [	    u,	U		]	};
+    key <AB04> { [	    k,	K		]	};
+    key <AB08> { [	    w,	W		]	};
+    key <AC07> { [	    b,	B		]	};
+    key <AD08> { [	    p,	P		]	};
+    key <AC09> { [	    f,	F		]	};
+    key <AB10> { [	    z,	Z		]	};
+    key <AD11> { [  parenleft,	braceleft	]	};
+    key <AD12> { [ parenright, braceright,  dead_tilde] };
+
+    key <AC04> { [	    h,	H		]	};
+    key <AC05> { [	    i,	I		]	};
+    key <AC03> { [	    e,	E		]	};
+    key <AC01> { [	    a,	A 		]	};
+    key <AD03> { [      period,	greater, dead_abovedot, periodcentered	] };
+    key <AD07> { [	    d,	D		]	};
+    key <AC06> { [	    t,	T		]	};
+    key <AC08> { [	    n,	N		]	};
+    key <AC10> { [	    s,	S		]	};
+    key <AD09> { [	    r,	R		]	};
+    key <AC11> { [	minus,	underscore	]	};
+
+    key <AB02> { [	    q,	Q		]	};
+    key <AB01> { [   semicolon,	colon, dead_ogonek, dead_doubleacute ] };
+    key <AD01> { [  apostrophe,	quotedbl, dead_acute, dead_diaeresis	] };
+    key <AD02> { [	comma,	less,   dead_cedilla, dead_caron	] };
+    key <AB05> { [	    x,	X		]	};
+    key <AB06> { [	    g,	G		]	};
+    key <AD10> { [	    l,	L		]	};
+    key <AB07> { [	    m,	M		]	};
+    key <AD06> { [	    c,	C		]	};
+    key <AB09> { [	    v,	V		]	};
+
+    // Swap backspace and backslash
+    key <BKSL> {	[ BackSpace,    BackSpace	]	};
+    key <BKSP> {        [ backslash,    bar             ]       };
+
+    // Trigger caps lock when both shifts are pressed
+    key <LFSH> {
+      type[Group1]="TWO_LEVEL",
+      symbols[Group1] = [ Shift_L, Caps_Lock ]
+    };
+    key <RTSH> {
+      type[Group1]="TWO_LEVEL",
+      symbols[Group1] = [ Shift_R, Caps_Lock ]
+    };
+
+    // Eliminate CapsLock, making it another Ctrl.
+    replace key <CAPS> { [ Control_L, Control_L ] };
+    modifier_map  Control { <CAPS>, <LCTL> };
+};
