@@ -9,15 +9,15 @@ xkb_symbols "basic" {
 
     key <TLDE> { [       Cyrillic_io,       Cyrillic_IO  ] };
 
-    key <AE01> { [                 9,            exclam  ] };
-    key <AE02> { [                 7,                at  ] };
+    key <AE01> { [                 3,            exclam  ] };
+    key <AE02> { [                 2,                at  ] };
     key <AE03> { [                 1,        numerosign  ] };
-    key <AE04> { [                 3,            dollar  ] };
+    key <AE04> { [                 4,            dollar  ] };
     key <AE05> { [                 5,           percent  ] };
-    key <AE06> { [                 4,       asciicircum  ] };
-    key <AE07> { [                 2,         ampersand  ] };
+    key <AE06> { [                 6,       asciicircum  ] };
+    key <AE07> { [                 7,         ampersand  ] };
     key <AE08> { [                 0,   asterisk, U20BD  ] };
-    key <AE09> { [                 6,         parenleft  ] };
+    key <AE09> { [                 9,         parenleft  ] };
     key <AE10> { [                 8,        parenright  ] };
     key <AE11> { [        dead_acute,          question  ] };
     key <AE12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN  ] };
