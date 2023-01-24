@@ -61,8 +61,8 @@ xkb_symbols "basic" {
     key.type[Group1]="KEYPAD" ;
     key <KPDL> { [ KP_Delete, KP_Separator ] }; // <delete> <separator>
 
-    key <BKSL> { [         BackSpace,         BackSpace  ] };
-    key <BKSP> { [        Cyrillic_e,        Cyrillic_E  ] };
+    key <BKSL> { [        Cyrillic_e,        Cyrillic_E  ] };
+    key <BKSP> { [         BackSpace,         BackSpace  ] };
 
     key <LFSH> {
       type[Group1]="TWO_LEVEL",

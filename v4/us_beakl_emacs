@@ -58,8 +58,8 @@ xkb_symbols "basic" {
     key <AB10> { [	    v,	V		]	};
 
     // Swap backspace and backslash
-    key <BKSL> {	[ BackSpace,    BackSpace	]	};
-    key <BKSP> {        [ backslash,    bar             ]       };
+    key <BKSL> {        [ backslash,    bar             ]       };
+    key <BKSP> {	[ BackSpace,    BackSpace	]	};
 
     // Trigger caps lock when both shifts are pressed
     key <LFSH> {
