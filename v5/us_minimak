@@ -28,7 +28,7 @@ xkb_symbols "basic" {
     key <AD06> { [	    y,	Y, End, End	]	};
     key <AD07> { [	    u,	U		]	};
     key <AD08> { [	    i,	I, Up, Up	]	};
-    key <AD09> { [	    o,	O		]	};
+    key <AD09> { [	    o,	O, Open, Open	]	};
     key <AD10> { [	    p,	P		]	};
     key <AD11> { [  parenleft,	braceleft	]	};
     key <AD12> { [ parenright,  braceright,  dead_tilde] };
@@ -36,7 +36,7 @@ xkb_symbols "basic" {
     key <AC01> { [	    a,	A 		]	};
     key <AC02> { [	    s,	S		]	};
     key <AC03> { [	    t,	T		]	};
-    key <AC04> { [	    f,	F		]	};
+    key <AC04> { [	    f,	F, Find, Find	]	};
     key <AC05> { [	    g,	G, Escape, Escape ]	};
     key <AC06> { [	    h,	H		]	};
     key <AC07> { [	    j,	J, Left, Left	]	};
@@ -45,10 +45,10 @@ xkb_symbols "basic" {
     key <AC10> { [   semicolon,	colon, dead_ogonek, dead_doubleacute ] };
     key <AC11> { [  apostrophe,	quotedbl, dead_acute, dead_diaeresis	] };
 
-    key <AB01> { [	    z,	Z		]	};
-    key <AB02> { [	    x,	X		]	};
-    key <AB03> { [	    c,	C		]	};
-    key <AB04> { [	    v,	V		]	};
+    key <AB01> { [	    z,	Z, Undo, Redo	]	};
+    key <AB02> { [	    x,	X, Cut, Cut	]	};
+    key <AB03> { [	    c,	C, Copy, Copy	]	};
+    key <AB04> { [	    v,	V, Paste, Paste	]	};
     key <AB05> { [	    b,	B, Home, Home	]	};
     key <AB06> { [	    n,	N		]	};
     key <AB07> { [	    m,	M		]	};
