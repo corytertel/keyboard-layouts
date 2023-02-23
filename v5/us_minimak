@@ -28,7 +28,7 @@ xkb_symbols "basic" {
     key <AD06> { [	    y,	Y, End, End	]	};
     key <AD07> { [	    u,	U		]	};
     key <AD08> { [	    i,	I, Up, Up	]	};
-    key <AD09> { [	    o,	O,     		]	};
+    key <AD09> { [	    o,	O     		]	};
     key <AD10> { [	    p,	P		]	};
     key <AD11> { [  parenleft,	braceleft	]	};
     key <AD12> { [ parenright,  braceright,  dead_tilde] };
