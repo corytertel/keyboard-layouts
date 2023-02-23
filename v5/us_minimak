@@ -34,7 +34,7 @@ xkb_symbols "basic" {
     key <AD12> { [ parenright,  braceright,  dead_tilde] };
 
     key <AC01> { [	    a,	A 		]	};
-    key <AC02> { [	    s,	S, 0x0013, 0x0013 ]	};
+    key <AC02> { [	    s,	S		]	};
     key <AC03> { [	    t,	T		]	};
     key <AC04> { [	    f,	F, Find, Find	]	};
     key <AC05> { [	    g,	G, Escape, Escape ]	};
