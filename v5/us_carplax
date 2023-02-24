@@ -21,39 +21,39 @@ xkb_symbols "basic" {
     key <AE12> { [	equal,	plus		]	};
 
     key <AD01> { [	    q,	Q		]	};
-    key <AC05> { [	    g,	G, Escape, Escape ]	};
-    key <AB07> { [	    m,	M		]	};
-    key <AC09> { [	    l,	L		]	};
-    key <AD02> { [	    w,	W		]	};
+    key <AD02> { [	    g,	G, Escape, Escape ]	};
+    key <AD03> { [	    m,	M		]	};
+    key <AD04> { [	    l,	L		]	};
+    key <AD05> { [	    w,	W		]	};
     key <AD06> { [	    y,	Y, End, End	]	};
-    key <AC04> { [	    f,	F, Find, Find	]	};
-    key <AD07> { [	    u,	U, Up, Up	]	};
-    key <AB05> { [	    b,	B, Home, Home	]	};
-    key <AC10> { [   semicolon,	colon, dead_ogonek, dead_doubleacute ] };
+    key <AD07> { [	    f,	F, Find, Find	]	};
+    key <AD08> { [	    u,	U, Up, Up	]	};
+    key <AD09> { [	    b,	B, Home, Home	]	};
+    key <AD10> { [   semicolon,	colon, dead_ogonek, dead_doubleacute ] };
     key <AD11> { [  parenleft,	braceleft	]	};
     key <AD12> { [ parenright,  braceright,  dead_tilde] };
 
-    key <AD03> { [	    d,	D, Delete, Delete ]	};
+    key <AC01> { [	    d,	D, Delete, Delete ]	};
     key <AC02> { [	    s,	S		]	};
     key <AC03> { [	    t,	T		]	};
-    key <AB06> { [	    n,	N		]	};
-    key <AD04> { [	    r,	R		]	};
-    key <AD08> { [	    i,	I		]	};
-    key <AC01> { [	    a,	A, Left, Left	]	};
+    key <AC04> { [	    n,	N		]	};
+    key <AC05> { [	    r,	R		]	};
+    key <AC06> { [	    i,	I		]	};
+    key <AC07> { [	    a,	A, Left, Left	]	};
     key <AC08> { [	    e,	E, Down, Down	]	};
-    key <AD09> { [	    o,	O, Right, Right	]	};
-    key <AC06> { [	    h,	H, Help, Help   ]	};
+    key <AC09> { [	    o,	O, Right, Right	]	};
+    key <AC10> { [	    h,	H, Help, Help   ]	};
     key <AC11> { [  apostrophe,	quotedbl, dead_acute, dead_diaeresis	] };
 
     key <AB01> { [	    z,	Z, Undo, Redo	]	};
     key <AB02> { [	    x,	X, Cut, Cut	]	};
     key <AB03> { [	    c,	C, Copy, Copy	]	};
     key <AB04> { [	    v,	V, Paste, Paste	]	};
-    key <AC07> { [	    j,	J 	  	]	};
-    key <AD05> { [	    k,	K		]	};
-    key <AD10> { [	    p,	P		]	};
+    key <AB05> { [	    j,	J 	  	]	};
+    key <AB06> { [	    k,	K		]	};
+    key <AB07> { [	    p,	P		]	};
     key <AB08> { [	comma,	less,   dead_cedilla, dead_caron	] };
-    key <AB09> { [      period,	greater, dead_abovedot, periodcentered	] };
+    key <AB09> { [     period,	greater, dead_abovedot, periodcentered	] };
     
     // Trigger caps lock when both shifts are pressed
     key <LFSH> {
